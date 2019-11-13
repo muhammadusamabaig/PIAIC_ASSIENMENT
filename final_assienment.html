@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+.head{
+    background-color: black;
+    display: block;
+    height: 40px;
+}
+li{
+   display: inline;
+   padding-left: 10px;
+}
+.fa {
+  
+  font-size: 30px;
+ 
+  text-align: center;
+  text-decoration: none;
+ height: 30px;;
+  border-radius: 100px;
+  width: 30px;
+}
+.fa:hover {
+    opacity: 0.7;
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.fa-facebook {
+  background: rgb(3, 6, 12);
+  color: white;
+}
+.fa-twitter {
+  background:#040a0e;
+  color: white;
+}
+.fa-linkedin {
+  background:#040a0e;
+  color: white;
+}
+.fa-instagram {
+  background: #040a0e;
+  color: white;
+}
+.fa-google {
+  background:#040a0e;
+  color: white;
+}
+/* slider */
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  
+  position: absolute
+  ;
+ 
+ top: 28%;
+  width:1270px;
+  height:450px;
+  
+}
+
+/* Next & previous but/tons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* button style */
+#but:hover{
+    transform: scale(1.5,1);
+    transition:1s;
+    }
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #0c0202;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #74e074;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.lii:hover{
+    
+    padding-bottom: 16px ;
+    border-bottom: orange 6px solid;
+}
+.lii a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: 100px;
+
+}
+
+
+.process{
+ 
+  padding-left: 90px;
+  
+  border-radius: 100px;
+
+}
+.lii a:focus {
+    text-decoration: none;
+    color: rgb(240, 179, 12);
+}
+
+
+</style>
+
+<body >
+    <p class="head" ><span style="margin-left: 55%;"><i class="fa fa-phone" style=" font-size:28px;color:rgba(10, 226, 39, 0.938)"></i> <p style="color:white; position: absolute; top: 1%;left: 58%;">+03100202059</p>
+        <span style="position: absolute; top: 3%;left: 75%;"><i class="fa fa-phone" style=" font-size:28px;color:rgba(10, 226, 39, 0.938)"></i></span> <p style="color:white; position: absolute; top: 1%;left: 78%;">+03100202059</p></p>
+
+<ul style="position:absolute; top:3px;">
+    <li ><a href="#" class="fa fa-google"></a></li>
+    <li><a href="#" class="fa fa-twitter"></a></li>
+    <li><a href="#" class="fa fa-facebook"></a></li>
+    <li><a href="#" class="fa fa-linkedin"></a></a></li>
+</ul> 
+<img src="panacloud.png" style="width:170px; "/>
+<ul style="display: inline; list-style: none; padding-left: 6px; margin-left: 25%;">
+    <li class="lii"><a href="#">WHY US</a></li>
+    <li class="lii"><a href="#">ABOUT</a></li>
+    <li class="lii"><a href="#">SERVICES</a></li>
+    <li class="lii"><a href="#">PORTFOLIO</a></li>
+    <li class="lii"><a href="#pro">PROCESS</a></li>
+    <li class="lii"><a href="#">REVIEW</a></li>
+    <li class="lii"><a href="#">OUR SKILLS</a></li>
+    <li class="lii"><a href="#">CONTACT US</a></li>
+</ul>
+<!-- slid 1 -->
+<div class="slideshow-container"  
+style=" background-image: url('slider_image.jpg'); background-position: 1300px 200px;">
+<!-- heading sa pahly wala div -->
+    <div   class="mySlides fade" >
+      <div class="numbertext">1 / 3</div>
+      <div style="position:absolute; background-color: rgba(171, 236, 74, 0.808); top: 30%; 
+      width:400px; height:40px; 
+     "></div>
+      <!-- 2nd div -->
+      <div style="position:absolute; top: 30% ;left:30%; 
+      width:350px; height:40px; opacity: 0; background-color: #fff;
+      "></div>
+      <h1 style="position:absolute; top: 24% ;left:35%; color: white">WE ARE EXPERTS</h1>
+      <!-- third wala div heading ka bad -->
+      <div style="position:absolute; top: 30%;left:65%; 
+      width:450px; height:40px;
+       
+      background-color: rgba(171, 236, 74, 0.808);"></div>
+     <p style="text-align: center ; margin-top: 24%;  color: white; font :caption;">Lorem ipsum dolor sit amet consetetur sadipscing aliter ,sed diam nonumy<br>erimod tempor invidunt ut labore et dolor magna aliquyam erat</p>
+    <input id="but" type="button"  style="margin-left: 45%; height: 40px;width: 160px; background-color: orange;
+     border-bottom: rgb(231, 67, 8) 5px solid; border-radius: 4px ; cursor:cell; "
+    value="READ MORE"/>
+    </div>
+    <!-- slide 2 -->
+    <div class="mySlides fade" style=" background-image:url()">
+      <div class="numbertext" style=" margin-left: 5%;">2 / 3</div>
+    
+      
+     
+    </div>
+    <!-- slide 3 -->
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      
+     
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    <h1 style="position: absolute; top: 108%; left: 39%;"><span style="color: black;">OUR</span> <span style="color: rgba(51, 151, 56, 0.719);">ADVANTAGES</span></h1>
+    <p style="text-align: center; margin-left: 28%; color: rgb(167, 160, 160); position: absolute;  top: 118%;">Lorem ipsum dolor site consetetur sadipscing eliter , sed diam nonumy airmod<br>tempor invidunt ut labore et dolore magna aliquyam erat</p>   
+     
+     <ul style="display: inline; position: absolute; left:9%;  top: 135%; ">
+        <li class="process"><img src="performance.png" style="width: 70px;"/></li>
+       <li class="process"> <img src="bulb_icon.jpg" style="width: 73px; height: 62px;"/> </li>      
+         <li class="process"><img src="plan.png" style="width: 70px;"/></li>
+        <li class="process"><img src="thum.png" style="width: 90px;"/></li>
+        <li class="process"><img src="process.png" style="width: 70px;"/></li>
+       
+    </ul>
+
+  
+    <h5 style=" position: absolute; left: 19.5%; top: 151%;">EXPERIENCE</h5>
+    <h5 style=" position: absolute; left: 31.5%; top: 151%;">INNOVATION</h5>
+    <h5 style=" position: absolute; left: 44.5%; top: 151%;">PLANNING</h5>
+    <h5 style=" position: absolute; left: 59%; top: 151%;">QUALITY</h5>
+    <h5 style=" position: absolute; left: 73%; top: 151%;">PROCESS</h5>
+    <div >
+    <p id="pro" style="  text-align: center; font-size:10px; color: rgb(182, 176, 176); position: absolute;
+     left: 17%; top: 160%;">LOrem ipsum dolor sit amet ,<br> consetetur sadiscing eliter ,sed<br> diam nonumy erimod</p>
+
+<p style="text-align: center; font-size:10px;color: rgb(182, 176, 176); position: absolute;
+     left: 30%; top: 160%;">LOrem ipsum dolor sit amet ,<br> consetetur sadiscing eliter ,sed<br> diam nonumy erimod</p>
+
+<p style="text-align: center; font-size:10px;color: rgb(182, 176, 176); position: absolute;
+left: 43%; top: 160%;">LOrem ipsum dolor sit amet ,<br> consetetur sadiscing eliter ,sed<br> diam nonumy erimod</p>
+
+<p style="text-align: center;color: rgb(182, 176, 176); font-size:10px; position: absolute;
+     left: 57%; top: 160%;">LOrem ipsum dolor sit amet ,<br> consetetur sadiscing eliter ,sed<br> diam nonumy erimod</p>
+
+<p style="text-align: center; color: rgb(182, 176, 176); font-size:10px; position: absolute;
+left: 71%; top: 160%;">LOrem ipsum dolor sit amet ,<br> consetetur sadiscing eliter ,sed<br> diam nonumy erimod</p>
+     </div>
+     <div class="about" style=" background-position: 78%; width:1258px;background-color: rgb(128, 223, 124); height: 500px; background-image: url(aboutback.jpg); position: absolute; top: 175%;background-repeat: no-repeat; border:0px solid;">
+<h1 style="margin-left: 40%;"><span style="color: darkgreen;">ABOUT</span>  <span style="color: rgb(12, 4, 4);">US</span></h1>
+<h5 style="padding:4%; margin-top: 10%; color: white;" >A paragraph is a series of related sentences developing a central idea, called the topic. Try to<br> think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of<br> sentences that supports one central, unified idea. Paragraphs add one idea at <br> time to your broader argument.
+<br>
+A paragraph is a series of related sentences developing a central idea, called the topic. Try to<br> think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of<br> sentences that supports one central, unified idea. Paragraphs add one idea at <br> time to your broader argument.</h5>
+       
+</div>
+     <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+   
+    </body>
+</html>
